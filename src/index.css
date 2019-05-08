@@ -1,0 +1,33 @@
+.upperContainer {
+  display:flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.movieContainer {
+  display: flex;
+ 
+  max-width:  400px;
+  max-height: 400px;
+  justify-content: space-between;
+  border: 1px solid black;
+  flex-basis: 48%;
+ 
+
+}
+.movieDetail {
+  display: flex;
+  flex-flow: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.movieDetail:hover {
+  cursor: pointer;
+}
+.photoContainer{
+  width: 20%;
+  height: 100%;
+}
+.singleMovie {
+  justify-content: center;
+}
